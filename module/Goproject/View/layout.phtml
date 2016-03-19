@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html class="no-js css-menubar" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+  <meta name="description" content="bootstrap admin template">
+  <meta name="author" content="">
+  <title>GoProject</title>
+  <link rel="apple-touch-icon" href="templates/remark/topicon/assets/images/apple-touch-icon.png">
+  <link rel="shortcut icon" href="templates/remark/topicon/assets/images/favicon.ico">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="templates/remark/global/css/bootstrap.min.css">
+  <link rel="stylesheet" href="templates/remark/global/css/bootstrap-extend.min.css">
+  <link rel="stylesheet" href="templates/remark/topicon/assets/css/site.css">
+  <!-- Plugins -->
+  <link rel="stylesheet" href="templates/remark/global/vendor/animsition/animsition.css">
+  <link rel="stylesheet" href="templates/remark/global/vendor/asscrollable/asScrollable.css">
+  <link rel="stylesheet" href="templates/remark/global/vendor/switchery/switchery.css">
+  <link rel="stylesheet" href="templates/remark/global/vendor/intro-js/introjs.css">
+  <link rel="stylesheet" href="templates/remark/global/vendor/slidepanel/slidePanel.css">
+  <link rel="stylesheet" href="templates/remark/global/vendor/flag-icon-css/flag-icon.css">
+  <link rel="stylesheet" href="templates/remark/global/vendor/waves/waves.css">
+  <link rel="stylesheet" href="templates/remark/global/vendor/chartist-js/chartist.css">
+  <link rel="stylesheet" href="templates/remark/global/vendor/jvectormap/jquery-jvectormap.css">
+  <link rel="stylesheet" href="templates/remark/global/vendor/chartist-plugin-tooltip/chartist-plugin-tooltip.css">
+
+
+  <link rel="stylesheet" href="templates/remark/topicon/assets/examples/css/dashboard/v1.css">
+  <!-- Fonts -->
+  <link rel="stylesheet" href="templates/remark/global/fonts/material-design/material-design.min.css">
+  <link rel="stylesheet" href="templates/remark/global/fonts/brand-icons/brand-icons.min.css">
+  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,300italic'>
+  <script src="templates/remark/global/vendor/modernizr/modernizr.js"></script>
+  <script src="templates/remark/global/vendor/breakpoints/breakpoints.js"></script>
+  <script>
+  Breakpoints();
+  </script>
+</head>
+<body class="site-navbar-small dashboard">
+  <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <nav class="site-navbar navbar navbar-default navbar-fixed-top navbar-mega navbar-inverse navbar-inverse bg-blue-600"
+        role="navigation">
+        <div class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed" data-target="#site-navbar-collapse"
+         data-toggle="collapse">
+         <i class="icon md-more" aria-hidden="true"></i>
+       </button>
+       <a class="navbar-brand navbar-brand-center" href="/index.html">
+        <img class="navbar-brand-logo navbar-brand-logo-normal" src="templates/remark/topicon/assets/images/logo.png"
+        title="Remark">
+        <img class="navbar-brand-logo navbar-brand-logo-special" src="templates/remark/topicon/assets/images/logo-blue.png"
+        title="Remark">
+        <span class="navbar-brand-text title-top"> GoProject</span>
+      </a>
+    </div>
+    <div class="navbar-container container-fluid">
+      <div class="search-container">
+        <div class="form-group">
+          <input type="text" class="form-control input-top-search" name="" placeholder="Pesquisa">
+          <button type="submit" class="input-search-btn btn-top-search"><i class="icon md-search" aria-hidden="true"></i></button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+
+  <?= $this->content ?>
+
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="site-footer-legal">© 2016 <a href="http://themeforest.net/item/remark-responsive-bootstrap-admin-template/11989202">AguiaSoftware</a></div>
+    <div class="site-footer-right">
+      Faça seu projeto, com facilidade e qualidade <i class="red-600 icon md-favorite"></i> use Goproject</a>
+    </div>
+  </footer>
+  <!-- Core  -->
+  <?= $this->addScript('templates/remark/global/vendor/jquery/jquery.js') ?>
+  <?= $this->addScript('templates/remark/global/vendor/bootstrap/bootstrap.js') ?>
+  <?= $this->addScript('templates/remark/global/vendor/animsition/animsition.js') ?>
+  <?= $this->addScript('templates/remark/global/vendor/asscroll/jquery-asScroll.js') ?>
+  <?= $this->addScript('templates/remark/global/vendor/mousewheel/jquery.mousewheel.js') ?>
+  <?= $this->addScript('templates/remark/global/vendor/asscrollable/jquery.asScrollable.all.js') ?>
+  <?= $this->addScript('templates/remark/global/vendor/ashoverscroll/jquery-asHoverScroll.js') ?>
+  <?= $this->addScript('templates/remark/global/vendor/waves/waves.js') ?>
+  <!-- Plugins -->
+  <?= $this->addScript('templates/remark/global/vendor/switchery/switchery.min.js') ?>
+  <?= $this->addScript('templates/remark/global/vendor/intro-js/intro.js') ?>
+  <?= $this->addScript('templates/remark/global/vendor/screenfull/screenfull.js') ?>
+  <?= $this->addScript('templates/remark/global/vendor/slidepanel/jquery-slidePanel.js') ?>
+  <?= $this->addScript('templates/remark/global/vendor/chartist-js/chartist.min.js') ?>
+  <?= $this->addScript('templates/remark/global/vendor/chartist-plugin-tooltip/chartist-plugin-tooltip.min.js') ?>
+  <?= $this->addScript('templates/remark/global/vendor/jvectormap/jquery-jvectormap.min.js') ?>
+  <?= $this->addScript('templates/remark/global/vendor/jvectormap/maps/jquery-jvectormap-world-mill-en.js') ?>
+  <?= $this->addScript('templates/remark/global/vendor/matchheight/jquery.matchHeight-min.js') ?>
+  <?= $this->addScript('templates/remark/global/vendor/peity/jquery.peity.min.js') ?>
+
+  <!-- Scripts -->
+  <?= $this->addScript('templates/remark/global/js/core.js') ?>
+  <?= $this->addScript('templates/remark/topicon/assets/js/site.js') ?>
+  <?= $this->addScript('templates/remark/topicon/assets/js/sections/menu.js') ?>
+  <?= $this->addScript('templates/remark/topicon/assets/js/sections/menubar.js') ?>
+  <?= $this->addScript('templates/remark/topicon/assets/js/sections/sidebar.js') ?>
+  <?= $this->addScript('templates/remark/global/js/configs/config-colors.js') ?>
+  <?= $this->addScript('templates/remark/topicon/assets/js/configs/config-tour.js') ?>
+  <?= $this->addScript('templates/remark/global/js/components/asscrollable.js') ?>
+  <?= $this->addScript('templates/remark/global/js/components/animsition.js') ?>
+  <?= $this->addScript('templates/remark/global/js/components/slidepanel.js') ?>
+  <?= $this->addScript('templates/remark/global/js/components/switchery.js') ?>
+  <?= $this->addScript('templates/remark/global/js/components/tabs.js') ?>
+  <?= $this->addScript('templates/remark/global/js/components/matchheight.js') ?>
+  <?= $this->addScript('templates/remark/global/js/components/jvectormap.js') ?>
+  <?= $this->addScript('templates/remark/global/js/components/peity.js') ?>
+  <?= $this->addScript('templates/remark/topicon/assets/examples/js/dashboard/v1.js') ?>
+</body>
+</html>

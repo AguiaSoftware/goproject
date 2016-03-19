@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule !\.(js|gif|jpg|png|css|txt|svg|eot|ttf|woff|otf|xml|html|htm|json|csv|woff2)$ index.php [L]
+RewriteCond %{REQUEST_URI} !^/
+RewriteRule ^(.*)$ $1 [L] 
