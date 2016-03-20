@@ -1192,7 +1192,7 @@ body.layout-full {
   }
 }
 body.site-navbar-small {
-  padding-top: 130px;
+  padding-top: 45px;
 }
 .site-navbar-small .site-navbar {
   height: 48px;
@@ -10107,9 +10107,9 @@ h4.example-title {
 /*Layout Goproject*/
 
 .title-top {
-    font-family: inherit!important;
-    cursor: pointer;
-    font-weight: 400;
+  font-family: inherit!important;
+  cursor: pointer;
+  font-weight: 400;
 }
 
 .search-container{
@@ -10133,6 +10133,7 @@ h4.example-title {
 }
 
 .input-top-search{
+  width: 827px;
   padding-left: 52px;
   color: rgba(255,255,255,0.4);
   display: -webkit-flex;
@@ -10167,14 +10168,15 @@ h4.example-title {
   padding-left: 16px;
 }
 .content-list {
-    position: absolute;
-    width: 512px;
-    top: 43px;
+  display: none;
+  position: absolute;
+  width: 827px;
+  top: 50px;
 }
 .conteiner-list {
-    webkit-animation: slide-down .15s cubic-bezier(.4,0,.2,1);
-    animation: slide-down .15s cubic-bezier(.4,0,.2,1);
-    box-shadow: 0 -1px 0 #e5e5e5,0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
+  webkit-animation: slide-down .15s cubic-bezier(.4,0,.2,1);
+  animation: slide-down .15s cubic-bezier(.4,0,.2,1);
+  box-shadow: 0 -1px 0 #e5e5e5,0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
 }
 
 ul{
@@ -10183,22 +10185,38 @@ ul{
 }
 
 .ul-list{
-    background-color: #fff;
-    border-top: 1px solid #e5e5e5;
+  background-color: #fff;
+  border-top: 1px solid #e5e5e5;
 }
 
 .ul-list li {
-    cursor: pointer;
-    line-height: 36px;
-    overflow: hidden;
-    padding: 0 15px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    border-top: 1px solid #eee;
-    color: #aaa;
+  cursor: pointer;
+  line-height: 36px;
+  overflow: hidden;
+  padding: 0 24px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .ul-list li:hover {
-    background: #f2f2f2;
+  background-color: rgba(0,0,0,.03);
+  outline: 1px solid transparent;
+}
+
+.click-input-top-search{
+  background: #f6f6f6;
+}
+.click-title-top{
+  color:#5A8DEB;
+}
+
+.page-content-search {
+    max-width: 829px;
+    margin: auto;
+    padding: 0px;
+}
+
+.conteiner-result-search{
+  margin-top: 25px;
 }
 

@@ -22,7 +22,7 @@
   <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <nav class="site-navbar navbar navbar-default navbar-fixed-top navbar-mega navbar-inverse navbar-inverse bg-blue-600"
+        <nav class="top-search site-navbar navbar navbar-default navbar-fixed-top navbar-mega navbar-inverse navbar-inverse bg-blue-600"
         role="navigation">
         <div class="navbar-header">
          <button type="button" class="navbar-toggle collapsed" data-target="#site-navbar-collapse"
@@ -30,10 +30,10 @@
          <i class="icon md-more" aria-hidden="true"></i>
        </button>
        <a class="navbar-brand navbar-brand-center" href="/index.html">
-        <img class="navbar-brand-logo navbar-brand-logo-normal" src="templates/remark/images/logo.png"
+        <!-- <img class="navbar-brand-logo navbar-brand-logo-normal" src="templates/remark/images/logo.png"
         title="Remark">
         <img class="navbar-brand-logo navbar-brand-logo-special" src="templates/remark/images/logo-blue.png"
-        title="Remark">
+        title="Remark"> -->
         <span class="navbar-brand-text title-top"> GoProject</span>
       </a>
     </div>
@@ -44,6 +44,7 @@
           <button type="submit" class="input-search-btn btn-top-search"><i class="icon md-search" aria-hidden="true"></i></button>
         </div>
       </div>
+
       <div class="content-list">
         <div class="conteiner-list">
           <ul class="ul-list">
@@ -58,8 +59,10 @@
     </div>
   </nav>
   
-
-  <?= $this->content ?>
+  <div id="teste">
+    <?= $this->content ?>
+  </div>
+  
 
 
   <!-- Footer -->
@@ -72,6 +75,7 @@
   <!-- Core  -->
   <?= $this->addScript('templates/remark/global/js/jquery.js') ?>
   <?= $this->addScript('templates/remark/global/js/bootstrap.js') ?>
+  <?= $this->addScript('modules/search/search.js') ?>
   <!-- Scripts -->
   <?= $this->addScript('templates/remark/global/js/core.js') ?>
 </body>
