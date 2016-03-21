@@ -1,0 +1,55 @@
+.searchbar-search-container{
+  max-width: 512px;
+  position: relative;
+  margin-top: 6px;
+}
+
+.searchbar-search-input:focus + .btn-top-search{
+  color: #444!important;
+}
+
+.searchbar-search-input::-webkit-input-placeholder{
+  color:#5A8DEB;
+}
+
+.searchbar-search-input:focus::-webkit-input-placeholder{
+  color:#ccc!important;
+  font-size: 15px;
+  font-weight: 400
+}
+
+.searchbar-search-input{
+  width: 827px;
+  padding-left: 52px;
+  color: rgba(255,255,255,0.4);
+  display: -webkit-flex;
+  display: flex;
+  background: rgba(255,255,255,0.16);
+  height: 36px;
+  line-height: 36px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,0.05),0 1px 2px 0 rgba(0,0,0,0.07),0 2px 1px -2px rgba(0,0,0,0.1),0 1px 5px 0 rgba(0,0,0,0.06);
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.05),0 1px 2px 0 rgba(0,0,0,0.07),0 2px 1px -2px rgba(0,0,0,0.1),0 1px 5px 0 rgba(0,0,0,0.06);
+  border: none;
+}
+
+.searchbar-search-input:focus{
+  display: -webkit-flex;
+  display: flex;
+  background: rgba(255,255,255,1);
+  height: 36px;
+  line-height: 36px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.2),0 1px 5px 0 rgba(0,0,0,0.12);
+  border: none;
+  color: #333
+}
+
+.searchbar-search-btn {
+  left: 0;
+  color: #fff;
+  font-size: 17px;
+  padding-left: 16px;
+}

@@ -1,0 +1,35 @@
+.project-page-panel-title-main{
+	display: block;
+	padding: 10px 0px 0px 12px;
+	font-size: 14px;
+	font-family: Roboto,sans-serif;
+	font-weight: 400;
+	color: #424242;
+	text-transform: uppercase;
+}
+
+.project-page-panel-body-main {
+	padding: 12px 12px 0px 12px;
+}
+
+.project-page-panel-body-secundary{
+	padding: 12px 12px 0px 12px;
+	font-size: 12px;
+    height: 150px;
+    overflow-y: auto;
+}
+
+
+
+.project-page-widget {
+	margin-bottom: 8px;
+}
+
+.project-page-panel-title-secundary {
+	padding: 6px 0px 3px 8px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+}
+    
+

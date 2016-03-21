@@ -16,7 +16,7 @@ Application.config({
     },
 
     resources: {
-        cache: false
+        cache: true
     }
 });
 
@@ -26,15 +26,10 @@ PI.Url.add('Public',    'BaseUrl');
 /**
  * Libs
  */
-PI.Url.add('Modules',   'Public', '/modules');
-PI.Url.add('Pages',     'Public', '/modules');
+PI.Url.add('Project',           'Modules', '/project');
+PI.Url.add('SearchBar',         'Modules', '/searchbar');
 
-/**
- * Url Alias Modules
- */
-PI.Url.add('Home',          'Pages', '/home');
-PI.Url.add('Pesquisa',      'Pages', '/pesquisa');
-PI.Url.add('Engine',        'Pages', '/engines');
+
 
 /**
 * Services

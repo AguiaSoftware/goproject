@@ -17,66 +17,44 @@
   <link rel="stylesheet" href="templates/remark/global/fonts/material-design/material-design.min.css">
   <link rel="stylesheet" href="templates/remark/global/fonts/brand-icons/brand-icons.min.css">
   <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,300italic'>
+  <script type="text/javascript" src="http://cdn-pillar.s3.amazonaws.com/bin/jquery.js"></script>    
+  <script type="text/javascript" src="http://cdn-pillar.s3.amazonaws.com/v2.2/pillar.develop.js?v1.03" app="/modules/app.js?v1" config="/modules/config.js"></script>
 </head>
 <body class="site-navbar-small dashboard">
-  <!--[if lt IE 8]>
-        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <nav class="top-search site-navbar navbar navbar-default navbar-fixed-top navbar-mega navbar-inverse navbar-inverse bg-blue-600"
-        role="navigation">
-        <div class="navbar-header">
-         <button type="button" class="navbar-toggle collapsed" data-target="#site-navbar-collapse"
-         data-toggle="collapse">
-         <i class="icon md-more" aria-hidden="true"></i>
-       </button>
-       <a class="navbar-brand navbar-brand-center" href="/index.html">
-        <!-- <img class="navbar-brand-logo navbar-brand-logo-normal" src="templates/remark/images/logo.png"
-        title="Remark">
-        <img class="navbar-brand-logo navbar-brand-logo-special" src="templates/remark/images/logo-blue.png"
-        title="Remark"> -->
-        <span class="navbar-brand-text title-top"> GoProject</span>
-      </a>
-    </div>
-    <div class="navbar-container container-fluid">
-      <div class="search-container">
-        <div class="form-group">
-          <input type="text" class="form-control input-top-search" name="" placeholder="Pesquisa">
-          <button type="submit" class="input-search-btn btn-top-search"><i class="icon md-search" aria-hidden="true"></i></button>
-        </div>
-      </div>
 
-      <div class="content-list">
-        <div class="conteiner-list">
-          <ul class="ul-list">
-            <li>Pesquisa 1</li>
-            <li>pesquisa 2</li>
-            <li>pesquisa 3</li>
-            <li>pesquisa 4</li>
-          </ul>
-        </div>
-      </div>
 
-    </div>
-  </nav>
-  
-  <div id="teste">
-    <?= $this->content ?>
+
+  <nav class="top-search site-navbar navbar navbar-default navbar-fixed-top navbar-mega navbar-inverse navbar-inverse bg-blue-600"
+  role="navigation">
+  <div class="navbar-header">
+   <button type="button" class="navbar-toggle collapsed" data-target="#site-navbar-collapse"
+   data-toggle="collapse">
+   <i class="icon md-more" aria-hidden="true"></i>
+ </button>
+ <a class="navbar-brand navbar-brand-center" href="/index.html">
+  <span class="navbar-brand-text title-top"> GoProject</span>
+</a>
+</div>
+<div at="searchbar"></div>
+</nav>
+
+
+ <div at="page"></div>
+
+
+
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="site-footer-legal">© 2016 <a href="http://themeforest.net/item/remark-responsive-bootstrap-admin-template/11989202">AguiaSoftware</a></div>
+  <div class="site-footer-right">
+    Faça seu projeto, com facilidade e qualidade <i class="red-600 icon md-favorite"></i> use Goproject</a>
   </div>
-  
-
-
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="site-footer-legal">© 2016 <a href="http://themeforest.net/item/remark-responsive-bootstrap-admin-template/11989202">AguiaSoftware</a></div>
-    <div class="site-footer-right">
-      Faça seu projeto, com facilidade e qualidade <i class="red-600 icon md-favorite"></i> use Goproject</a>
-    </div>
-  </footer>
-  <!-- Core  -->
-  <?= $this->addScript('templates/remark/global/js/jquery.js') ?>
-  <?= $this->addScript('templates/remark/global/js/bootstrap.js') ?>
-  <?= $this->addScript('modules/search/search.js') ?>
-  <!-- Scripts -->
-  <?= $this->addScript('templates/remark/global/js/core.js') ?>
+</footer>
+<!-- Core  -->
+<?= $this->addScript('templates/remark/global/js/jquery.js') ?>
+<?= $this->addScript('templates/remark/global/js/bootstrap.js') ?>
+<!-- Scripts -->
+<?= $this->addScript('templates/remark/global/js/core.js') ?>
 </body>
 </html>
